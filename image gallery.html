@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<style>
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+    
+}
+img{
+    width: 300px;
+    height: 300px;
+}
+h3{
+    text-align: center;
+}
+.grid-container >div{
+    border: 2px gray solid;
+    padding: 6px;
+}
+</style>
+<body>
+    <div class="grid-container">
+        <div><img src="image/f1.jpg" alt=""><h3>flower 1</h3></div>
+        <div><img src="image/f2.jpg" alt=""><h3>flower 2</h3></div>
+        <div><img src="image/f3.jpg" alt=""><h3>flower 3</h3></div>
+        <div><img src="image/f4.jpg" alt=""><h3>flower 4</h3></div>
+    </div>
+</body>
+</html>
